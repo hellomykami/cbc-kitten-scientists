@@ -2292,7 +2292,7 @@ var run = function() {
     activityBox.append(activityCheckbox, activityLabel, showActivity);
 
     $('#clearLog').append(activityBox);
-
+    right.prepend(optionsElement.append(optionsListElement));
     // Initialize and set toggles for Engine
     // =====================================
 
